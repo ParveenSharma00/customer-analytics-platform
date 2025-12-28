@@ -11,7 +11,8 @@ This project demonstrates an **end-to-end customer analytics workflow** using re
 - Git & GitHub
 
 ## 📂 Project Structure
-<img width="1512" height="1138" alt="image" src="https://github.com/user-attachments/assets/dfbe8741-cb20-48d7-85d6-ae7084bb3a92" />
+<img width="568" height="462" alt="image" src="https://github.com/user-attachments/assets/b0bcc08a-35c9-4496-8b48-e80f95427246" />
+
 
 
 
