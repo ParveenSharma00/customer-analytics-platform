@@ -11,19 +11,8 @@ This project demonstrates an **end-to-end customer analytics workflow** using re
 - Git & GitHub
 
 ## 📂 Project Structure
-data/
-├── raw/
-└── cleaned/
-sql/
-├── schema.sql
-├── rfm.sql
-└── cohort.sql
-notebooks/
-├── 01_data_cleaning.ipynb
-├── 02_eda.ipynb
-├── 03_statistics.ipynb
-└── 04_segmentation_ml.ipynb
-tableau/
+<img width="1512" height="1138" alt="image" src="https://github.com/user-attachments/assets/dfbe8741-cb20-48d7-85d6-ae7084bb3a92" />
+
 
 
 ## 📊 Key Analytics
