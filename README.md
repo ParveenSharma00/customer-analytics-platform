@@ -1,14 +1,22 @@
-# Customer Analytics Platform 🚀
+📊 Customer Growth, Retention & Revenue Analytics
+🔍 Business Objective
 
-This project demonstrates an **end-to-end customer analytics workflow** using real-world data.
+This project analyzes transactional e-commerce data to understand customer behavior, revenue drivers, retention patterns, and churn risk.
+The goal is to enable data-driven decisions around customer segmentation, retention strategy, and revenue growth using an end-to-end analytics pipeline.
 
-## 🔧 Tech Stack
-- Python (Pandas, NumPy, Scikit-learn)
-- SQL (CTEs, Window Functions)
-- Statistics (RFM, Hypothesis Testing)
-- Machine Learning (Clustering, Segmentation)
-- Tableau (Dashboards)
-- Git & GitHub
+🏢 Business Context
+
+The dataset represents a UK-based online retail company selling gift-ware products.
+Customers include both individual buyers and wholesalers, making customer value differentiation and churn identification critical for business growth.
+
+🛠️ Tech Stack
+
+SQL: CTEs, Window Functions, RFM Analysis, Cohort Logic
+Python: Pandas, NumPy, SciPy
+Statistics: Hypothesis Testing, Correlation Analysis
+Machine Learning: Scikit-learn (PCA, K-Means Clustering)
+Visualization: Tableau Public (Executive Dashboards)
+Version Control: Git & GitHub
 
 ## 📂 Project Structure
 <img width="568" height="462" alt="image" src="https://github.com/user-attachments/assets/b0bcc08a-35c9-4496-8b48-e80f95427246" />
