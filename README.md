@@ -36,16 +36,51 @@ UnitPrice: Unit price. Numeric. Product price per unit in sterling (Â£).
 CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
 Country: Country name. Nominal. The name of the country where a customer resides.
 
-### Business Context :-
+Raw and cleaned datasets are excluded from the repository due to size constraints.
+The project uses the publicly available Online Retail II dataset from Kaggle.
 
-A UK-based online retailer wants to understand customer behavior, revenue drivers, retention patterns, and churn risk to improve marketing effectiveness and revenue growth.
+🔄 End-to-End Workflow
+
+1️⃣ Data Cleaning & Preparation (Python)
+Removed cancelled invoices, invalid transactions, and missing customers
+Engineered revenue and recency features
+Standardized schema for analytics readiness
+
+2️⃣ SQL Analytics & RFM Modeling
+Built customer-level metrics using CTEs
+Calculated Recency, Frequency, and Monetary values
+Created business-ready customer segments
+
+3️⃣ Exploratory Data Analysis & Statistics
+Revenue distribution and Pareto (80/20) analysis
+Customer behavior correlation analysis
+Hypothesis testing to validate repeat customer value
+
+4️⃣ Machine Learning Segmentation
+Feature scaling and dimensionality reduction using PCA
+K-Means clustering to identify customer personas
+Translated ML clusters into business-friendly segments
+
+5️⃣ Executive Visualization (Tableau)
+Designed KPI-driven dashboards for leadership
+Enabled dynamic filtering by customer segment
+Visualized churn risk, revenue concentration, and customer value
 
 
-## 📊 Key Analytics
-- Customer Segmentation (RFM + KMeans)
-- Cohort & Retention Analysis
-- Revenue & LTV Metrics
-- Business-focused Insights
+📈 Tableau Public Dashboard
 
-## 🎯 Goal
-Build a **portfolio-grade analytics project** targeting top analytics & product companies.
+🔗 Live Dashboard:
+https://public.tableau.com/shared/MC9SRKTC2?:display_count=n&:origin=viz_share_link
+
+Dashboard Highlights:
+Executive KPIs: Total Revenue, Total Customers, Avg Revenue per Customer, Churn Rate
+Customer Segmentation: Distribution and revenue contribution by segment
+Retention Analysis: Recency and churn risk across segments
+Revenue Concentration: Pareto analysis showing high-value customer impact
+
+🧠 Key Insights
+A small percentage of customers drive the majority of revenue, confirming the Pareto principle
+High-frequency customers generate statistically higher revenue than one-time buyers
+Recency is a strong churn signal, with clear separation across customer segments
+ML-driven segmentation enables targeted retention and growth strategies
+Executive dashboards allow quick, actionable decision-making
